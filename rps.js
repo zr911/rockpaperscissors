@@ -51,11 +51,11 @@ let game = () => {
         console.log(user2);
     }
     if (user1 > user2) {
-        console.log('Hurray!')
+        console.log('Congratulations!')
     } else if (user2 > user1) {
         console.log('Boo!')
     } else {
-        console.log('what?')
+        console.log('It\'s a Draw!')
     }
 }
 
